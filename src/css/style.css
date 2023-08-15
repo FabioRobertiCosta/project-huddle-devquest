@@ -1,0 +1,117 @@
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+body {
+    background-image: url(./images/bg-desktop.svg);
+    background-color: var(--Violet);
+    opacity: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-right: 100px;
+}
+
+.logo .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo .name .huddle {
+    width: 180px;
+    padding: 20px;
+    margin-left: 43px;
+    margin-bottom: 35px;
+}
+
+.logo .name .img-desktop {
+    width: 90%;
+    height: 140%;
+    margin-left: 55px;
+    margin-bottom: 40px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info h3 {
+    margin: 140px 0 0 43px;
+    font-size: 40px;
+    color: var(--Soft-Magenta);
+    font-family: 'Poppins', sans-serif;
+}
+
+.info p {
+    margin-left: 43px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: var(--Soft-Magenta);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info .btn-register {
+    background-color: var(--Soft-Magenta);
+    align-self: flex-start;
+    margin-left: 43px;
+    padding: 10px 60px;
+    border-radius: 50px;
+    border: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.footer {
+    display: flex;
+   justify-content: space-between;
+}
+
+.footer .attibution{
+    margin-bottom: 10px;
+}
+
+.footer .attibution a{
+    color: var(--Soft-Magenta);
+}
+
+.footer .social {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: var(--Soft-Magenta);
+    margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .logo .name,
+    .logo .info {
+      flex: 1 0 auto;
+      margin-bottom: 20px;
+    }
+  
+    .logo img.img-desktop {
+      margin-top: 0; 
+    }
+  }

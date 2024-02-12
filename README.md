@@ -4,7 +4,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ## Overview
 
-This is the result of 4 months of Fron
+This is the result of 4 months of Fronend development studies at the DevQuest fullstacy course in Brazil.
 
 ### The challenge
 
@@ -16,11 +16,6 @@ The users should be able to:
 - See hover states for all interactive elements on the page
 
 [<img src="./src/css/images/mockup.jpg">]
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -37,11 +32,11 @@ It also helped me a lot when it comes to respect the parent tag during css writi
 
 
 ### Continued development
-This is the first of many. I will come back to it eventually, as I move along the Fullstack course I am in.
+This is the first of many. I will come back to it eventually, as I move along the Fullstack course.
 Train more HTML and CSS before moving to JavaScript.
 I am having problems dealing with the centering of the social media elements.
 So HELP is very welcome!
-I intend to come back to this project very shortly to improve it and add Java Script to it, as I move along the course.
+
 ## Author
 
 - Frontend Mentor - @FabioRobertiCosta(https://www.frontendmentor.io/profile/FabioRobertiCosta)

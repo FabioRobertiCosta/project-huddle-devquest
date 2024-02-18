@@ -4,7 +4,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ## Overview
 
-This is the result of 4 months of Fronend development studies at the DevQuest fullstacy course in Brazil.
+This is the result of 4 months of Fronend development studies at the DevQuest fullstack course in Brazil.
 
 ### The challenge
 
